@@ -1,7 +1,7 @@
--- CREATE TABLE user (
--- 	id INT PRIMARY KEY,   
--- 	name VARCHAR(255)
--- );
+CREATE TABLE user (
+	id INT PRIMARY KEY,   
+	name VARCHAR(255)
+);
 
 CREATE TABLE quiz (
 	id INT PRIMARY KEY,   
