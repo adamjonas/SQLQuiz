@@ -18,13 +18,13 @@ CREATE TABLE question (
 
 CREATE TABLE answer (
 	id INTEGER PRIMARY KEY,
-	content VARCHAR(255),   
+	content VARCHAR(255),
 	question_id INTEGER NOT NULL
 );
 
 CREATE TABLE user_response (
 	user_id INTEGER NOT NULL,
 	question_id INTEGER NOT NULL,
-	answer_id INTeger NOT NULL,
+	answer_id INTEGER NOT NULL,
 	correct BOOLEAN NOT NULL
 );
