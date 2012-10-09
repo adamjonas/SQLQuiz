@@ -1,0 +1,1 @@
+UPDATE user set name = "AJ" WHERE id = 1;
